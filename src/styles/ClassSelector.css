@@ -1,0 +1,82 @@
+.class-selector {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.class-selector-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.class-selector-header h2 {
+  color: #ffd700;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.class-selector-header p {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.class-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.class-card {
+  width: 280px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid #333;
+}
+
+.class-card:hover, .class-card.hovered {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  border-color: #ffd700;
+}
+
+.class-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.class-info {
+  flex-grow: 1;
+}
+
+.class-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.class-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4;
+}

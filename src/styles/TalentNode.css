@@ -1,0 +1,79 @@
+.talent-node-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.talent-node {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #888;
+  transition: all 0.2s ease-in-out;
+}
+
+.talent-node.active {
+  border-color: #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.talent-node.locked {
+  cursor: not-allowed;
+}
+
+.talent-node .talent-points {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffd700;
+}
+
+.talent-tooltip {
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffd700;
+  width: 200px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.talent-tooltip h4 {
+  margin: 0 0 5px 0;
+  color: #ffd700;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.talent-tooltip p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.tooltip-rank {
+  font-size: 12px;
+  font-style: italic;
+  color: #aaa;
+}

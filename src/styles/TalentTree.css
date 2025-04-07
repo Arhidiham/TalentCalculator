@@ -1,0 +1,78 @@
+.talent-tree {
+  width: 100%;
+  max-width: 750px;
+  min-width: 750px;
+  margin: 0;
+  padding: 20px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  flex-shrink: 0;
+}
+
+.talent-tree-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.talent-tree-header h2 {
+  color: #ffd700;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.talent-tree-header p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.talent-points-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 14px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.reset-button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.reset-button:hover {
+  background-color: #e74c3c;
+}
+
+.reset-button:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.talent-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, auto);
+  gap: 10px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .talent-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+}

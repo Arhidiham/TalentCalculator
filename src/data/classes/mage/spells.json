@@ -1,0 +1,96 @@
+{
+  "id": "mage",
+  "name": "Mage Spells",
+  "description": "Powerful arcane and elemental spells",
+  "maxPoints": 10,
+  "spells": [
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "color": "#e74c3c",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Hurls a fiery ball that causes 18 to 23 Fire damage.",
+          "talentPointsRequired": 0
+        },
+        {
+          "rank": 2,
+          "description": "Hurls a fiery ball that causes 24 to 31 Fire damage.",
+          "talentPointsRequired": 5
+        },
+        {
+          "rank": 3,
+          "description": "Hurls a fiery ball that causes 36 to 45 Fire damage.",
+          "talentPointsRequired": 10
+        },
+        {
+          "rank": 4,
+          "description": "Hurls a fiery ball that causes 48 to 59 Fire damage.",
+          "talentPointsRequired": 15
+        }
+      ]
+    },
+    {
+      "id": "frostbolt",
+      "name": "Frostbolt",
+      "color": "#3498db",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Launches a bolt of frost at the enemy, causing 16 to 19 Frost damage and slowing movement speed by 30% for 4 sec.",
+          "talentPointsRequired": 0
+        },
+        {
+          "rank": 2,
+          "description": "Launches a bolt of frost at the enemy, causing 22 to 26 Frost damage and slowing movement speed by 40% for 5 sec.",
+          "talentPointsRequired": 8
+        },
+        {
+          "rank": 3,
+          "description": "Launches a bolt of frost at the enemy, causing 30 to 34 Frost damage and slowing movement speed by 50% for 6 sec.",
+          "talentPointsRequired": 16
+        }
+      ]
+    },
+    {
+      "id": "arcane_missiles",
+      "name": "Arcane Missiles",
+      "color": "#9b59b6",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Launches Arcane Missiles at the enemy, causing 24 Arcane damage over 3 sec.",
+          "talentPointsRequired": 3
+        },
+        {
+          "rank": 2,
+          "description": "Launches Arcane Missiles at the enemy, causing 36 Arcane damage over 4 sec.",
+          "talentPointsRequired": 12
+        },
+        {
+          "rank": 3,
+          "description": "Launches Arcane Missiles at the enemy, causing 52 Arcane damage over 5 sec.",
+          "talentPointsRequired": 20
+        }
+      ]
+    },
+    {
+      "id": "polymorph",
+      "name": "Polymorph",
+      "color": "#f39c12",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Transforms the enemy into a sheep, forcing it to wander around for up to 20 sec. While wandering, the target cannot attack or cast spells but will regenerate health quickly.",
+          "talentPointsRequired": 6
+        },
+        {
+          "rank": 2,
+          "description": "Transforms the enemy into a sheep, forcing it to wander around for up to 30 sec. While wandering, the target cannot attack or cast spells but will regenerate health quickly.",
+          "talentPointsRequired": 18
+        }
+      ]
+    }
+  ]
+}

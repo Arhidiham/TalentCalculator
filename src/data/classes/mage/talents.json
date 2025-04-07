@@ -1,0 +1,97 @@
+{
+  "id": "mage",
+  "name": "Mage",
+  "description": "Master of arcane and elemental magic",
+  "maxPoints": 31,
+  "pointsPerTier": 5,
+  "totalTiers": 7,
+  "nodes": [
+    {
+      "id": "arcane_intellect",
+      "name": "Arcane Intellect",
+      "description": "Increases intellect by 5% per point",
+      "tier": 1,
+      "column": 1,
+      "maxPoints": 5,
+      "color": "#3498db"
+    },
+    {
+      "id": "improved_fireball",
+      "name": "Improved Fireball",
+      "description": "Reduces the casting time of Fireball by 0.1 seconds per point",
+      "tier": 1,
+      "column": 2,
+      "maxPoints": 5,
+      "color": "#e74c3c"
+    },
+    {
+      "id": "frost_shards",
+      "name": "Frost Shards",
+      "description": "Increases critical strike chance of Frost spells by 2% per point",
+      "tier": 1,
+      "column": 3,
+      "maxPoints": 5,
+      "color": "#9b59b6"
+    },
+    {
+      "id": "arcane_explosion",
+      "name": "Improved Arcane Explosion",
+      "description": "Reduces mana cost of Arcane Explosion by 5% per point",
+      "tier": 2,
+      "column": 1,
+      "maxPoints": 3,
+      "color": "#3498db",
+      "prereqIds": ["arcane_intellect"]
+    },
+    {
+      "id": "flame_throwing",
+      "name": "Flame Throwing",
+      "description": "Increases the range of Fire spells by 3 yards per point",
+      "tier": 2,
+      "column": 2,
+      "maxPoints": 2,
+      "color": "#e74c3c",
+      "prereqIds": ["improved_fireball"]
+    },
+    {
+      "id": "ice_shards",
+      "name": "Ice Shards",
+      "description": "Increases critical strike damage of Frost spells by 20% per point",
+      "tier": 2,
+      "column": 3,
+      "maxPoints": 3,
+      "color": "#9b59b6",
+      "prereqIds": ["frost_shards"]
+    },
+    {
+      "id": "presence_of_mind",
+      "name": "Presence of Mind",
+      "description": "Your next spell with a casting time is instant cast",
+      "tier": 3,
+      "column": 1,
+      "maxPoints": 1,
+      "color": "#3498db",
+      "prereqIds": ["arcane_explosion"]
+    },
+    {
+      "id": "pyroblast",
+      "name": "Pyroblast",
+      "description": "Deals massive Fire damage and leaves a damage over time effect",
+      "tier": 3,
+      "column": 2,
+      "maxPoints": 1,
+      "color": "#e74c3c",
+      "prereqIds": ["flame_throwing"]
+    },
+    {
+      "id": "cold_snap",
+      "name": "Cold Snap",
+      "description": "Resets the cooldown of all Frost spells",
+      "tier": 3,
+      "column": 3,
+      "maxPoints": 1,
+      "color": "#9b59b6",
+      "prereqIds": ["ice_shards"]
+    }
+  ]
+}

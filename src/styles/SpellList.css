@@ -1,0 +1,82 @@
+.spell-list {
+  width: 100%;
+  min-width: 300px;
+  max-width: 350px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
+  height: fit-content;
+}
+
+.spell-list-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.spell-list-header h2 {
+  color: #ffd700;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.spell-list-header p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.spell-points-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 14px;
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.spell-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+.spell-group {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 15px;
+}
+
+.spell-group:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.spell-group-header {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #444;
+}
+
+.spell-group-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+/* Reuse the reset button styles from TalentTree.css */

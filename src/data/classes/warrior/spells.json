@@ -1,0 +1,118 @@
+{
+  "id": "warrior",
+  "name": "Warrior Abilities",
+  "description": "Powerful melee abilities and battle tactics",
+  "maxPoints": 10,
+  "spells": [
+    {
+      "id": "heroic_strike",
+      "name": "Heroic Strike",
+      "color": "#8B0000",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Deals an additional 11 damage on your next swing.",
+          "talentPointsRequired": 0
+        },
+        {
+          "rank": 2,
+          "description": "Deals an additional 21 damage on your next swing.",
+          "talentPointsRequired": 5
+        },
+        {
+          "rank": 3,
+          "description": "Deals an additional 32 damage on your next swing.",
+          "talentPointsRequired": 10
+        },
+        {
+          "rank": 4,
+          "description": "Deals an additional 45 damage on your next swing.",
+          "talentPointsRequired": 15
+        }
+      ]
+    },
+    {
+      "id": "rend",
+      "name": "Rend",
+      "color": "#8B0000",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Wounds the target causing them to bleed for 7 damage over 9 sec.",
+          "talentPointsRequired": 0
+        },
+        {
+          "rank": 2,
+          "description": "Wounds the target causing them to bleed for 16 damage over 12 sec.",
+          "talentPointsRequired": 8
+        },
+        {
+          "rank": 3,
+          "description": "Wounds the target causing them to bleed for 24 damage over 15 sec.",
+          "talentPointsRequired": 16
+        }
+      ]
+    },
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "color": "#CD853F",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Attacks up to 2 targets, dealing your weapon damage plus 5 to each target.",
+          "talentPointsRequired": 4
+        },
+        {
+          "rank": 2,
+          "description": "Attacks up to 2 targets, dealing your weapon damage plus 10 to each target.",
+          "talentPointsRequired": 12
+        },
+        {
+          "rank": 3,
+          "description": "Attacks up to 2 targets, dealing your weapon damage plus 20 to each target.",
+          "talentPointsRequired": 20
+        }
+      ]
+    },
+    {
+      "id": "shield_block",
+      "name": "Shield Block",
+      "color": "#8B4513",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to block by 30% for 5 seconds. One charge.",
+          "talentPointsRequired": 6
+        },
+        {
+          "rank": 2,
+          "description": "Increases your chance to block by 40% for 5 seconds. Two charges.",
+          "talentPointsRequired": 14
+        }
+      ]
+    },
+    {
+      "id": "battle_shout",
+      "name": "Battle Shout",
+      "color": "#CD853F",
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases attack power of all party members within 30 yards by 25 for 2 min.",
+          "talentPointsRequired": 0
+        },
+        {
+          "rank": 2,
+          "description": "Increases attack power of all party members within 30 yards by 45 for 2 min.",
+          "talentPointsRequired": 10
+        },
+        {
+          "rank": 3,
+          "description": "Increases attack power of all party members within 30 yards by 65 for 2 min.",
+          "talentPointsRequired": 18
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "mage",
+  "name": "Mage",
+  "description": "Master of arcane and elemental magic",
+  "iconColor": "#3498db",
+  "iconPath": "icons/mage.png"
+}

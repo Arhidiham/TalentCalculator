@@ -1,0 +1,7 @@
+{
+  "id": "warrior",
+  "name": "Warrior",
+  "description": "Master of weapons and combat tactics",
+  "iconColor": "#8B0000",
+  "iconPath": "icons/warrior.png"
+}
