@@ -25,7 +25,7 @@ This project is built with React, TypeScript, and Vite to provide a modern, fast
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/TalentCalculator.git
+   git clone https://github.com/Arhidiham/TalentCalculator.git
    ```
 
 2. Navigate to the project directory:
